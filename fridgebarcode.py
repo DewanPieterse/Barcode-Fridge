@@ -10,13 +10,13 @@ import datetime
 import requests
 import datetime
 
-#Test barcodes
-#3046920028363 Lindt Excellence 85% Cacao
-#6009612470083 Sparkling Water
-#4000539032509 Lindt Truffel
-#3046920028721 Lindt Excellence 99% Cacao
-#6003191113171 SinuMax Allergy Sinus 20 Capsules
-#6004201004243 Doom Fogger 350ml
+# Test barcodes
+# 3046920028363 Lindt Excellence 85% Cacao
+# 6009612470083 Sparkling Water
+# 4000539032509 Lindt Truffel
+# 3046920028721 Lindt Excellence 99% Cacao
+# 6003191113171 SinuMax Allergy Sinus 20 Capsules
+# 6004201004243 Doom Fogger 350ml
 
 
 def getItemName(barcode): #Get the name from the interwebs: set in stone
@@ -137,6 +137,7 @@ def readCSV(fileName): #Used to read the CSV
     #from email.mime.multipart import MIMEMultipart
     
     #COMMASPACE = ', '
+    
     
     #sender = 'pietersedewan@gmail.com'
     #gmail_password = ''
